@@ -9,6 +9,10 @@ A fully serverless REST API built with Terraform, using AWS Lambda, API Gateway,
 
 ## Overview
 
+## Architecture
+
+![Architecture diagram](./screenshots/architecture.png)
+
 This project provisions a complete serverless backend: an HTTP API Gateway routes `GET`/`POST` requests to a Python Lambda function, which reads and writes items to a DynamoDB table. No servers to manage, pay-per-request billing, and infrastructure defined entirely in Terraform.
 
 ## What This Demonstrates
